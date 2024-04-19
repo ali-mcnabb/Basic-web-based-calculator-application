@@ -1,0 +1,39 @@
+.calculator {
+    background-color: darkgreen;
+    padding: 10px;
+    border-radius: 1em;
+    height: 380px;
+    width: 400px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 20px, rgba(0, 0, 0, 0.25) 0px 5px 5px;
+}
+
+.display-box {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: antiquewhite;
+    border: solid black 0.5px;
+    width: 100%;
+    height: 65%;
+}
+
+#btn {
+    background-color: deeppink;
+}
+
+input[type=button] {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: darkslateblue;
+    color: white;
+    border: solid black 0.5px;
+    width: 100%;
+    border-radius: 5px;
+    height: 70%;
+    outline: none;
+}
+
+input:active(type=buttons) {
+    background: grey;
+    -webkit-box-shadow: inset 0px 0px 5px darkgrey;
+    -moz-box-shadow: inset 0px 0px 5px darkgrey;
+    box-shadow: inset 0px 0pxz 5px darkgrey;
+}
