@@ -31,9 +31,9 @@ input[type=button] {
     outline: none;
 }
 
-input:active(type=buttons) {
+input[type=button]:active {
     background: grey;
     -webkit-box-shadow: inset 0px 0px 5px darkgrey;
     -moz-box-shadow: inset 0px 0px 5px darkgrey;
-    box-shadow: inset 0px 0pxz 5px darkgrey;
+    box-shadow: inset 0px 0px 5px darkgrey;
 }
